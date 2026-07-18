@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=Playfair+Display:wght@600;800&display=swap');
+
+@import "tailwindcss";
+
+:root {
+  color-scheme: dark;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: #090909;
+  font-family: Inter, ui-sans-serif, system-ui;
+  min-height: 100vh;
+}
+
+input,
+textarea,
+select {
+  width: 100%;
+  border: 1px solid rgba(255,255,255,.12);
+  background: rgba(0,0,0,.45);
+  border-radius: 1rem;
+  padding: .9rem 1rem;
+  margin-bottom: 1rem;
+  color: white;
+  outline: none;
+}
+
+img {
+  background: #111;
+}
+
+.font-display {
+  letter-spacing: -.04em;
+}
